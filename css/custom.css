@@ -1,0 +1,27 @@
+.navbar-default{
+    background-color: #000;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #ffcc00;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #ffcc00;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color: #ffcc00;
+}
+#logo{
+    /*float: left;*/
+    text-align: left;
+}
+#hotlin{
+    text-align: right;
+    color: #B08B51;
+    /*float: right;*/
+}
+.dropdown-menu{
+    box-shadow:0 1px 1px rgba(255, 204, 0, 1);
+}
